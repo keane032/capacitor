@@ -1,0 +1,10 @@
+{
+  "appId": "com.example.app",
+  "appName": "integrasus",
+  "webDir": "www",
+  "server": {
+    "url": "https://integrasus.saude.ce.gov.br/#/indicadores",
+    "cleartext": false
+  }
+
+}
