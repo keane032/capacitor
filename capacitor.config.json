@@ -3,7 +3,7 @@
   "appName": "integrasus",
   "webDir": "www",
   "server": {
-    "url": "https://integrasus.saude.ce.gov.br/#/indicadores",
+    "url": "https://refactoring.guru/pt-br",
     "cleartext": false
   }
 
