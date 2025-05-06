@@ -43,3 +43,6 @@
    ```json
     npx cap sync
     npx cap copy
+
+8. **Agora abra a pasta android no android studio e execute o projeto** 
+
