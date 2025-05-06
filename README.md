@@ -1,36 +1,38 @@
-mkdir meu-pwa-capacitor
-cd meu-pwa-capacitor
-npm init -y
+# Criar e configurar projeto PWA com Capacitor
 
+1. **Crie a pasta do projeto e acesse-a:**  
+   Digite no terminal:  
+   `mkdir meu-pwa-capacitor`  
+   `cd meu-pwa-capacitor`
 
+2. **Inicie o projeto Node.js:**  
+   Execute o comando:  
+   `npm init -y`
 
-npm install @capacitor/core @capacitor/cli
-npx cap init
+3. **Instale e inicialize o Capacitor:**  
+   Use os comandos:  
+   `npm install @capacitor/core @capacitor/cli`  
+   `npx cap init`
 
+4. **Configure o servidor no arquivo `capacitor.config.js`:**  
+   Adicione este trecho dentro da configuração do arquivo:
 
- "server": {
-    "url": "https://refactoring.guru/pt-br",
-    "cleartext": false
-  }
+   ```json
+   "server": {
+     "url": "https://refactoring.guru/pt-br",
+     "cleartext": false
+   }
 
-Quando cleartext = true: o app permite conexões não criptografadas, ou seja, via http://
+5. **Instale a plataforma android**
+   Use os comandos:
+    `npm install @capacitor/android`
+    `npx cap add android`
 
+6. **Execute esse comando**
 
-Quando cleartext = false: o app restringe para apenas conexões seguras, ou seja, só HTTPS
+  `mkdir android\app\src\main\assets`
 
+7. **Use os comando abaixo para atualizar auteracoes no projeto** 
 
-npm install @capacitor/android
-
-npx cap add android
-npx cap add ios
-
-
-npx cap open android
-npx cap open ios
-
-
-mkdir android\app\src\main\assets
-
-
-npx cap sync
-npx cap copy
+    `npx cap sync`
+    `npx cap copy`
