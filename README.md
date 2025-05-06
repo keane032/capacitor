@@ -1,18 +1,21 @@
 # Criar e configurar projeto PWA com Capacitor
 
 1. **Crie a pasta do projeto e acesse-a:**  
-   Digite no terminal:  
-   `mkdir meu-pwa-capacitor`  
-   `cd meu-pwa-capacitor`
+   Digite no terminal:
+   ```json  
+   mkdir meu-pwa-capacitor  
+   cd meu-pwa-capacitor
 
 2. **Inicie o projeto Node.js:**  
    Execute o comando:  
-   `npm init -y`
+   ```json
+   npm init -y
 
 3. **Instale e inicialize o Capacitor:**  
    Use os comandos:  
-   `npm install @capacitor/core @capacitor/cli`  
-   `npx cap init`
+   ```json
+   npm install @capacitor/core @capacitor/cli  
+   npx cap init
 
 4. **Configure o servidor no arquivo `capacitor.config.js`:**  
    Adicione este trecho dentro da configuração do arquivo:
@@ -27,15 +30,16 @@
    Use os comandos:
    
    ```json
-    `npm install @capacitor/android`
-    `npx cap add android`
+    npm install @capacitor/android
+    npx cap add android
 
 6. **Execute esse comando**
 
    ```json
-   `mkdir android\app\src\main\assets`
+   mkdir android\app\src\main\assets
 
-7. **Use os comando abaixo para atualizar auteracoes no projeto** 
+7. **Use os comando abaixo para atualizar auteracoes no projeto:** 
 
-    `npx cap sync`
-    `npx cap copy`
+   ```json
+    npx cap sync
+    npx cap copy
