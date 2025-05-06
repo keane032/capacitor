@@ -23,14 +23,17 @@
      "cleartext": false
    }
 
-5. **Instale a plataforma android**
+5. **Instale a plataforma android:**
    Use os comandos:
+   
+   ```json
     `npm install @capacitor/android`
     `npx cap add android`
 
 6. **Execute esse comando**
 
-  `mkdir android\app\src\main\assets`
+   ```json
+   `mkdir android\app\src\main\assets`
 
 7. **Use os comando abaixo para atualizar auteracoes no projeto** 
 
