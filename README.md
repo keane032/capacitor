@@ -2,9 +2,10 @@
 
 1. **Crie a pasta do projeto e acesse-a:**  
    Digite no terminal:
-   ```json  
+   ```
    mkdir meu-pwa-capacitor  
    cd meu-pwa-capacitor
+   ```
 
 2. **Inicie o projeto Node.js:**  
    Execute o comando:  
